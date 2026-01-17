@@ -14,7 +14,6 @@
 - Create a child process, which kills all of its ancestors
 
 Reading:
-- Understand every argument of the fork system call
 - Understand every argument of every exec system call
 - Understand every argument of every wait system call
 

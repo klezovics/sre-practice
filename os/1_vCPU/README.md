@@ -12,6 +12,7 @@
 - Run every single wait system call
 - Create a parent process, which kills all of its children
 - Create a child process, which kills all of its ancestors
+- Write some programs, which show all the parts, which are the same for parent and child after fork
 
 Reading:
 - Understand every argument of every exec system call

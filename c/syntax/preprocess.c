@@ -1,5 +1,10 @@
 #include <stdio.h>      // include header
 
+// All of these preprocessing directive and just dynamic source code modifiers
+// #include → literally paste another file
+// #define → text replacement
+// #if / #ifdef → keep or delete blocks of text
+
 // C preprocessing is: include code, define names, and choose what exists at compile time.
 
 #define MAX 100         // macro constant

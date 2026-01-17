@@ -1,5 +1,6 @@
 # Notes
 - fork = very simple. no args, just returns pid of child or 0 or -1 if error.
+- exec is cool, because it does not return ever. Just woooossssshhhh and its gone !!!
 
 # Exercises
 - Create a parent, which spawns a child.
@@ -17,6 +18,11 @@
 Reading:
 - Understand every argument of every exec system call
 - Understand every argument of every wait system call
+
+# Questions
+- A lot of cool and interesting stuff happens during the fork and exec system calls
+Like a lot of stuff gets copied over (PCB), but new memory is not allocated. It would be very
+useful to know what exactly happens. Like to a very strong level of detail.
 
 # New failure modes
 ## Fork

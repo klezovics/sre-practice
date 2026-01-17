@@ -5,6 +5,10 @@
 #define MAX 100         // macro constant
 #define SQR(x) ((x)*(x))// macro function
 
+// if you define or undefine this
+// you can change what the log function will do
+#define DEBUG 1
+
 #ifdef DEBUG             // conditional compile
 #define LOG(x) printf(x)
 #else

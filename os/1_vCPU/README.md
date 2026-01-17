@@ -1,6 +1,7 @@
 # Notes
 - fork = very simple. no args, just returns pid of child or 0 or -1 if error.
 - exec is cool, because it does not return ever. Just woooossssshhhh and its gone !!!
+- wait. it can only tell you the return code of one of your children
 
 # Exercises
 - Create a parent, which spawns a child.
